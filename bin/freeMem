@@ -1,0 +1,4 @@
+#!/bin/bash
+#ssh $1 "cat /proc/meminfo | head -4 | tail -3 | awk '{print \$2}' | paste -sd+ | bc"
+#ssh $1 "cat /proc/meminfo | head -4 | tail -3 | awk '{s+=\$2}END{print s}'"
+ssh $1 "free  | head -3 | tail -1 | awk '{print \$4}'"
