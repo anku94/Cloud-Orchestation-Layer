@@ -1,0 +1,5 @@
+* Cloud Orchestation Layer - Cloud Computing
+
+A libvirt based tool, uses Web APIs to create/delete VMs. Includes the facility to automatically transfer VMs from remote machines using SCP.
+
+Created in Python/Flask/Libvirt
